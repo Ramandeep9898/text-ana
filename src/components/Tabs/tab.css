@@ -1,0 +1,27 @@
+.tabs {
+  min-width: 600px;
+  border-radius: 10px;
+  padding: 4px;
+  border: 1px solid var(--colors-border-secondary);
+  background-color: var(--colors-bg-secondary);
+}
+.tab {
+  width: 50%;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.tab-inactive {
+  color: var(--colors-text-muted-light);
+  background-color: transparent;
+}
+.tab-active {
+  color: var(--colors-text-muted);
+  background-color: #fff;
+  padding: 8px 14px;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06),
+    0px 1px 3px 0px rgba(16, 24, 40, 0.1);
+}
